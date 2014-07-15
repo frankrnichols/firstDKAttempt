@@ -8,9 +8,11 @@
 	<button id="silly">Do it</button>
 	<button id="clear">Clear</button>
 	<button id="jarx">Jarx</button>
+	<button id="init">Init</button>
 	<div id="results"></div>
 <script src="js/zepto.min.js"></script>
 <script src="js/silly.js"></script>
+<script src="js/hella.js"></script>
 <script>
 $('#silly').click(function() {
 	daddies.DoIt($('#results'));
@@ -21,9 +23,13 @@ $('#clear').click(function() {
 });
 $('#jarx').click(function() {
 <!-- 	daddies.DoIt2($('#results')); -->
-	bluetoothle.startScan($('#results'));
+	blahblah.startScan($('#results'));
 	$('#clear').show();
 });
+$('#init').click(function() {
+	bluetoothle.initialize(initializeSuccess, initializeError);
+});
+
 </script>
 </body>
 </html>

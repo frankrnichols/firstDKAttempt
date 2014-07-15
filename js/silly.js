@@ -8,7 +8,7 @@ var daddies = (function(module) {
 	return module;
 }(daddies || {}));
 
-var bluetoothle = {
+var blahblah = {
   initialize: function(resultObject) {
 		resultObject.prepend('Initialized' + '<br/>'); 
   },
@@ -16,4 +16,4 @@ var bluetoothle = {
 		resultObject.prepend('startScanned' + '<br/>'); 
   }
 }
-module.exports = bluetoothle;
+module.exports = blahblah;
